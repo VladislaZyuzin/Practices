@@ -34,3 +34,45 @@ git log --oneline # показывает все истории коммитов
 Так как последнее - наиболее интерестно, то вот как это выглядит на практике: 
 
 <img width="1083" height="461" alt="Снимок экрана от 2025-09-23 12-12-19" src="https://github.com/user-attachments/assets/38310746-4c26-4fe7-83ad-18512032a389" />
+
+#### Проверка понимания:
+
+"Объясните разницу между git add . и git add -A?"
+> `git add .` добавляет только файлы в текущей папке в стейдж зону, а `git add -A` добавляет файлы из всех папок в репозитории
+"Что делает команда git status?"
+> Она показывает в какой ветке вы находитесь, а так же, показывает незакоммиченные изменения
+
+### Работа с ветками и checkout
+
+```bash
+# 1. Создайте и переключитесь на новую ветку
+git checkout -b feature/user-authentication
+
+# 2. Внесите изменения в новой ветке
+echo "// User auth module" > auth.js
+echo "function login() {}" >> auth.js
+
+# 3. Добавьте и закоммитьте изменения
+git add auth.js
+git commit -m "Add user authentication skeleton"
+
+# 4. Вернитесь на main ветку
+git checkout main
+
+# 5. Создайте еще одну ветку для исправлений
+git checkout -b hotfix/readme-update
+echo "## Installation guide" >> README.md
+git add README.md
+git commit -m "Update README with installation instructions"
+```
+#### Проверка понимания:
+
+"Чем отличается git checkout -b от git branch + git checkout?"
+
+> `git checkout -b` создаёт и сразу переходит на новую ветку, `git branch` показывает все ветки в репозитории, `git checkout` позволяет переключаться по веткам
+
+"Как посмотреть все ветки в репозитории?"
+
+>  Воспользуемся командой `git branch`
+
+
