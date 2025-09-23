@@ -42,7 +42,7 @@ git log --oneline # показывает все истории коммитов
 "Что делает команда git status?"
 > Она показывает в какой ветке вы находитесь, а так же, показывает незакоммиченные изменения
 
-### Работа с ветками и checkout
+### Задание 2: Работа с ветками и checkout
 
 ```bash
 # 1. Создайте и переключитесь на новую ветку
@@ -76,4 +76,6 @@ git commit -m "Update README with installation instructions"
 >  Воспользуемся командой `git branch`
 
 <img width="966" height="641" alt="image" src="https://github.com/user-attachments/assets/56c40048-a6f8-46e5-8b7b-fe698587b186" />
+
+### Задание 3: Fetch, Pull и работа с удаленным репозиторием
 
