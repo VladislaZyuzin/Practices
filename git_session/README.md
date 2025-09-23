@@ -75,4 +75,5 @@ git commit -m "Update README with installation instructions"
 
 >  Воспользуемся командой `git branch`
 
+<img width="966" height="641" alt="image" src="https://github.com/user-attachments/assets/56c40048-a6f8-46e5-8b7b-fe698587b186" />
 
