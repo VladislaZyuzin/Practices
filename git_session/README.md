@@ -71,6 +71,7 @@ git commit -m "Update README with installation instructions"
 
 > `git checkout -b` создаёт и сразу переходит на новую ветку, `git branch` показывает все ветки в репозитории, `git checkout` позволяет переключаться по веткам
 
+
 "Как посмотреть все ветки в репозитории?"
 
 >  Воспользуемся командой `git branch`
